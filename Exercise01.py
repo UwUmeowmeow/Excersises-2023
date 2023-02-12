@@ -28,11 +28,12 @@ while True:
               "please enter a number")
     result = numbercheck(number1, number2)
     if result[0] is False:
+        print(result[1])
         break
     else:
         print("Valid number")
-    print(f"Result: {result}")
-        number3(number1, number2)
+    print(f"Result: Good")
+    number3(number1, number2)
 
 
 

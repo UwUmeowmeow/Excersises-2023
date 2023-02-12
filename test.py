@@ -10,7 +10,7 @@ while True:
     else:
         mark = int(input("Enter your mark: "))
         Total_marks += mark
-        Total_students += 1
+        Total_students += 17
         if mark > 0 and mark < 100:
             print("nice mark")
         elif mark < 0 or mark > 100:
@@ -26,4 +26,3 @@ print(f"The average mark was {Total_marks/Total_students}")
 
             
                     
-        
